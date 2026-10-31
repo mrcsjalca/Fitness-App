@@ -4,6 +4,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -41,6 +42,7 @@ fun OutlinedDatePickerField(
                 )
             }
         },
+        shape = androidx.compose.foundation.shape.RoundedCornerShape(14.dp),
         modifier = modifier
     )
 
